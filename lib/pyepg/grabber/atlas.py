@@ -660,7 +660,7 @@ class GrabThread ( Thread ):
           # Fetch data
           data  = atlas_fetch(u, conn)
 
-          # Processs
+          # Process
           if data and 'schedule' in data:
             for s in data['schedule']:
               if 'items' in s:

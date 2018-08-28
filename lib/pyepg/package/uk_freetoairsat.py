@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# platform/uk_freetoairsat.py - Free to air Sattelite channel list (not HD)
+# platform/uk_freetoairsat.py - Free to air Satellite channel list (not HD)
 #
 # Copyright (C) 2012 Adam Sutton <dev@adamsutton.me.uk>
 #

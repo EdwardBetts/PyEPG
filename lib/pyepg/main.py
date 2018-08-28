@@ -63,7 +63,7 @@ def options ( name = None ):
   optg.add_option('--confdir', default=None,
                   help='specify alternative configuration/cache directory')
   optg.add_option('-o', '--option', default=[], action='append',
-                  help='specify arbitary configuration value')
+                  help='specify arbitrary configuration value')
   optp.add_option_group(optg)
 
   # Generic Grab options
@@ -499,7 +499,7 @@ def main ():
 
   # Error
   elif not conf.ready():
-    print 'ERROR: no configuraton is available, run %s configure' % name
+    print 'ERROR: no configuration is available, run %s configure' % name
 
   # Run
   elif cmd == 'grab':
